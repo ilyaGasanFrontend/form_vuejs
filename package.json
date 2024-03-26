@@ -1,0 +1,29 @@
+{
+  "name": "medods_client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
+    "jquery": "^3.7.1",
+    "maska": "^2.1.11",
+    "node-sass": "^9.0.0",
+    "normalize.css": "^8.0.1",
+    "sass-loader": "^14.1.1",
+    "vue": "^3.4.21",
+    "vue-inputmask": "^0.2.1",
+    "vuelidate": "^0.7.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.71.1",
+    "vite": "^5.1.5",
+    "vite-plugin-vue-devtools": "^7.0.16"
+  }
+}

@@ -1,0 +1,26 @@
+.container_el {
+    height: 90%;
+    width: 20%;
+    margin-right: 1rem;
+    :last-child(1) {
+        margin-right: 0;
+    }
+    display: flex;
+    background-color: rgba(63, 63, 63, 0.349);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.name_el {
+    flex: 3;
+    text-align: center;
+    overflow: hidden;
+    margin-right: 0.4rem;
+}
+.delet_el {
+    flex: 1;
+}
+.delete_el {
+    cursor: pointer;
+}
